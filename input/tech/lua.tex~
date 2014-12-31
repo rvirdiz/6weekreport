@@ -1,0 +1,39 @@
+\section{Introduction to Lua}
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=0.3\textwidth]{images/lua.png}
+\caption{Lua Logo}
+\hspace{-1.5em}
+\end{figure}
+\leavevmode\\
+Lua is a powerful and fast programming language that is easy to learn and use and to embed into your application. Lua is designed to be a lightweight embeddable scripting language and is used for all sorts of applications from games to web applications and image processing.\\\\
+Lua combines simple procedural syntax with powerful data description constructs based on associative arrays and extensible semantics. Lua is dynamically typed, runs by interpreting bytecode for a register-based virtual machine, and has automatic memory management with incremental garbage collection, making it ideal for configuration, scripting, and rapid prototyping.\\\\
+
+\subsection{Installation of Lua}
+Lua is implemented in pure ANSI C and compiles unmodified in all platforms that have an ANSI C compiler. Lua also compiles cleanly as C++. The current version is lua-5.2.3. Just download the source from the lua.org/download and then follow the steps for building it\\\\
+\emph
+{curl -R -O http://www.lua.org/ftp/lua-5.2.3.tar.gz\\
+tar zxf lua-5.2.3.tar.gz\\
+cd lua-5.2.3\\
+make
+}
+
+\leavevmode\\\\
+
+\subsection{Why choose Lua?}
+\begin{itemize}
+\item \textbf{Lua is a proven, robust language}\\
+Lua has been used in many industrial applications (e.g., Adobe's Photoshop Lightroom), with an emphasis on embedded systems (e.g., the Ginga middleware for digital TV in Brazil) and games (e.g., World of Warcraft and Angry Birds). Lua is currently the leading scripting language in games. Lua has a solid reference manual and there are several books about it. Several versions of Lua have been released and used in real applications since its creation in 1993. Lua featured in HOPL III, the Third ACM SIGPLAN History of Programming Languages Conference, in June 2007. 
+\item \textbf{Lua is fast}\\
+Lua has a deserved reputation for performance. To claim to be "as fast as Lua" is an aspiration of other scripting languages. Several benchmarks show Lua as the fastest language in the realm of interpreted scripting languages. Lua is fast not only in fine-tuned benchmark programs, but in real life too. Substantial fractions of large applications have been written in Lua. 
+\item \textbf{Lua is portable}\\
+Lua is distributed in a small package and builds out-of-the-box in all platforms that have a standard C compiler. Lua runs on all flavors of Unix and Windows, on mobile devices (running Android, iOS, BREW, Symbian, Windows Phone), on embedded microprocessors (such as ARM and Rabbit, for applications like Lego MindStorms), on IBM mainframes, etc. 
+\item \textbf{Lua is embeddable}\\
+ Lua is a fast language engine with small footprint that you can embed easily into your application. Lua has a simple and well documented API that allows strong integration with code written in other languages. It is easy to extend Lua with libraries written in other languages. It is also easy to extend programs written in other languages with Lua. Lua has been used to extend programs written not only in C and C++, but also in Java, C\#, Smalltalk, Fortran, Ada, Erlang, and even in other scripting languages, such as Perl and Ruby. 
+\item \textbf{Lua is powerful (but simple)}\\
+ A fundamental concept in the design of Lua is to provide meta-mechanisms for implementing features, instead of providing a host of features directly in the language. For example, although Lua is not a pure object-oriented language, it does provide meta-mechanisms for implementing classes and inheritance. Lua's meta-mechanisms bring an economy of concepts and keep the language small, while allowing the semantics to be extended in unconventional ways.
+\item \textbf{Lua is small}\\
+ Adding Lua to an application does not bloat it. The tarball for Lua 5.2.3, which contains source code and documentation, takes 246K compressed and 960K uncompressed. The source contains around 20000 lines of C. Under Linux, the Lua interpreter built with all standard Lua libraries takes 182K and the Lua library takes 244K. 
+\item \textbf{Lua is free}\\
+ Lua is free open-source software, distributed under a very liberal license (the well-known MIT license). It may be used for any purpose, including commercial purposes, at absolutely no cost. Just download it and use it. 
+\end{itemize}

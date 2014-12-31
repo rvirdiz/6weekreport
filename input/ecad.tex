@@ -1,0 +1,41 @@
+\subsection{Introduction to eCAD}
+eCAD is a 2D CAD software which is used for making basic entities like line, circle, arc, ellipse, inserting text, etc. It is a basic CAD software which is started at TCC, GNDEC Ludhiana by a team of GDCAD members. Firstly, eCAD was named as GDCAD but after few days changed to eCAD. This software has its working based on Qt and requires the installation of Qt on your system.\\
+
+Qt is a cross-platform application and UI framework for developers using C++ or QML, a CSS and JavaScript like language. Qt Creator is the supporting Qt IDE. Qt Cloud Services provides connected application backend features to Qt applications.\\
+
+Qt, Qt Quick and the supporting tools are developed as an open source project governed by an inclusive meritocratic model. Qt can be used under open source (GPL v3 and LGPL v2.1) or commercial terms.
+
+\subsubsection{Installation of eCAD}
+Ubuntu/Debian users In order to work with eCAD, run the following commands:\\
+
+\begin{verbatim}
+$ sudo apt-get install qtdeclarative5-dev qt5-default
+$ git clone https://github.com/GreatDevelopers/eCAD
+$ cd eCAD
+$ qmake
+$ make
+$ ./eCAD
+\end{verbatim}
+
+\noindent Windows users Prerequisite for working with eCAD on Windows:\\
+
+\begin{itemize}
+\item Install Qt's latest version available with mingw compiler from Qt's official downloads.
+\item Unzip eCAD from https://github.com/GreatDevelopers/eCAD.
+\item After installation launch Qt creator load eCAD.pro, from the build menu select "Build All"and Run.
+\end{itemize}
+
+\subsubsection{Features of eCAD}
+This CAD software involves many features that a 2D CAD software requires, following are the features of CAD sofware:\\
+
+\begin{itemize}
+\item This software has its working based on Qt.
+\item Basic entites can be drawn like point,line, circle, ellipse, text.
+\item Entire Gui is based on TDI (Tabbed Document Interface) like the one in browsers also which contains many tabs.
+\item Print and Print Preview option are available and the entire drawing can be printed on a paper which involves many printing option.
+\item Only those commands will work that are active at that instant.
+\item Undo and Redo option are available and the last used drawing command can be undo or redo.
+\item Various file options are available like open, new, quit, etc.
+\item Windows shows the current pointer location at the status bar of the window.\\
+Many other features are still to be added as the software is under development stage so that the complete CAD software could be designed.
+\end{itemize}

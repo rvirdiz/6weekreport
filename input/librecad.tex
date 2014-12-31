@@ -1,0 +1,105 @@
+\subsection{Introduction to LibreCAD}
+
+LibreCAD  is  a  fully  comprehensive  2D  CAD  application  that  you  can  download  and  install  for  free.
+There  is  a  large  base  of  satisfied  LibreCAD  users  worldwide,  and  it  is  available  in  more  than  20
+languages  and  for  all  major  operating  systems,  including  Microsoft  Windows,  Mac  OS  X  and  Linux
+(Debian,  Ubuntu,  Fedora,  Mandriva,  Suse  ...).  Librecad  is  an  application  for  computer   aided  design
+(cad)  in  two  dimensions  (2d).  with  librecad  you  can  create  technical  drawings  such  as  plans  for
+buildings, interiors, mechanical parts or schematics and diagrams.\\
+
+
+The  app  is  great  for  industrial  designers,  but  anyone  who  wants  to  learn  how  to  make  2D  CAD
+drawings will like this program.
+For  a  free  software,  LibreCAD  gives  you  a  lot  of  tools  to  work  with.  New  users  will be able to create
+basic  drawings,  while  advanced  users  can  make  engineering  plans   with  the   software.  Layers  can  be
+added,  ideal  for  complex  drawings.  The  provided  tools  are  sufficient  for  producing  high   precision
+drawings.  You  can  start  drawings  from  scratch.  But  it  is  also  easy  to  put  in  splines,  ellipses,  arcs,  lines
+and  circles.  A  single  item  can  have  several  iterations.  For  instance,  you  have  4  modes  for  a  rectangle
+parameter.\\
+
+
+The  different  shapes  can  be  combined  easily.  LibreCAD  also  has  a  powerful  zoom  tool  that  lets  you
+look  at  models  at  different  distances.  This  is  essential  for  designers  who  are  going  to  make  life­size
+copies  of  a  drawing.  There  are  three  tabs  above  the  working  area.  The  first  tab  is  for  changing  color,
+useful for layer definition. The other tab is for changing size and the third for workspace customization.
+LibreCAD  also  has  grids  which  are  extremely  useful  for  those  new  to  CAD.  Once  you  have   made  the
+basic  object,  you can customize it in many ways. Scaling is particularly easy here. Also worth mentioning
+here is the "Explode text into letters" effect. It is a special feature that will come in handy ations.
+LibreCAD  allows  you  to  put  horizontal  or vertical restrictions on completed models. Relative zeros may
+be locked, useful for ending and starting points. All in all, it is powerful, free CAD application.
+You can download, install and distribute LibreCAD freely, with no fear of copyright infringement.\\
+
+%----------------------------------------------------------------------------------------
+\
+\
+\
+%-------------------------------------------------------------------
+
+\subsubsection{LibreCAD's features:}
+\begin{itemize}
+\item  It's free – no worry about license costs or annual fees.
+\item No  language  barriers  –  it's  available  in  a  large  number  of  languages,  with  more  being  added
+continually.
+\item GPLv2  public  license  –  you  can  use  it,  customize  it,  hack  it  and  copy  it  with  free  user  support
+15and  developer  support  from  our  active  worldwide  community  and  our  experienced  developer
+team.
+\item LibreCAD  is an Open Source community­driven project: development is open to new talent and
+new  ideas,  and  our  software  is  tested  and  used  daily  by  a  large  and  devoted  user  community;
+you, too, can get involved and influence its future development.
+\item LibreCAD  is  an  Application  for  Computer  Aided  Design  (CAD)  in  two  dimension  (2D).  With
+LibreCAD  you  can  create  technical  drawings  such  as  plans  for  building,  interiors,  mechanical
+parts or schematics and diagrams.
+\end{itemize}
+
+
+%----------------------------------------------------------------------------------------
+\
+\
+\
+%-------------------------------------------------------------------
+
+
+
+
+\subsubsection{How it started?}
+%--------------
+\
+\
+%--------------------
+LibreCAD  started  as  a   project  to  build  CAM  capabilities  into  the  community  version  of  QCad  for  use with  a  Mechmate  CNC  router.  LibreCAD  is  a  version  of  QCad  CE  ported  to  Qt4.  Since  QCad  CE was  built  around  the  outdated  Qt3  library,  it  had  to  be  ported  to  Qt4  before  additional  enhancements. This gave rise to CADuntu.\\
+
+The  project  was  known as CADuntu only for a  couple of months before the community decided that the
+name  was  inappropriate.  After  some  discussion  within  the  community  and  research  on  existing  names, CADuntu was renamed to LibreCAD.\\
+
+Porting  the  rendering  engine  to  Qt4  proved  to  be  a  large  task,  so  LibreCAD  initially  still  depended  on the  Qt3  support  library.  The  Qt4  porting  was  completed  eventually  during  the  development  of  2.0.0 series,  thanks  to  our  master  developer  Rallaz,  and  LibreCAD  has  become  Qt3  free except in the 1.0.0 series.\\
+
+\subsubsection{Downloading Source Code}
+
+Fired up the terminal because you need to install the qt4 development libraries, tools, compiler and git.\\
+
+\$\ sudo apt-get install g++ gcc make git-core libqt4-dev qt4-qmake \
+libqt4-help qt4-dev-tools libboost-all-dev libmuparser-dev libfreetype6-dev \\
+
+\$\ sudo apt-get build-dep librecad\\ \\
+
+\noindent Clone the git repository of LibreCAD in Desktop (You can use any Directory)\\
+
+\$\ git clone https://github.com/LibreCAD/LibreCAD.git \\ 
+
+\noindent Now you can run qmake (or qmake-qt4) to create a makefile and run make to compile LibreCAD. Make sure that you are in the folder (Librecad).\\
+
+\$\ cd LibreCAD \\
+
+\$\ qmake-qt4 librecad.pro\\
+
+\$\ make\\
+
+\noindent librecad.pro  is  a  project  file.  qmake  creates  a  makefile.  Make  command  will  compile  the  project. Compiling  LibreCAD  might  take  awhile,   depending  on  the  speed  of  your  computer,  but  just  let  it  run
+until it finishes.\\
+
+\noindent To finally run LibreCAD, execute the following commands:\\
+
+\$\ cd unix\\
+
+\$\ ./librecad
+
